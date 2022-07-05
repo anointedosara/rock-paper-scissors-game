@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="div1">
+        <div class="div2">
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="div3">
+            <p>SCORE</p>
+            <div class="div4">
+                0
+            </div>
+        </div>
+    </div>
+
+    <div class="div5">
+        <div class="triangle-img">
+            <img src="./images/bg-triangle.svg" alt="">
+            <div class="div6" id="div6" role="button" onclick="handleClick(`paper`)"><img class="src" src="./images/icon-paper.svg" alt=""></div>
+            <div class="div6" id="div7" role="button" onclick="handleClick(`scissors`)"><img class="src" src="./images/icon-scissors.svg" alt=""></div>
+            <div class="div6" id="div8" role="button" onclick="handleClick(`rock`)"><img class="src" src="./images/icon-rock.svg" alt=""></div>
+        </div>
+
+    </div>
+
+    <div class="div10">
+        <div class="div11">
+            <p>YOU PICKED</p>
+            <div class="pick-div">
+                <div class="pick"><img id="myChoice" class="img" src="" alt="" /></div>
+            </div>
+            <p class="pic">YOU PICKED</p>
+        </div>
+
+        <div class="play">
+            <p class="win-lose"></p>
+            <button class="butn" onclick="playAgain()">PLAY AGAIN</button>
+        </div>
+
+        <div class="div12">
+            <p>THE HOUSE PICKED</p>
+            <div class="computer">
+                <div class="picked"><img id="opponentChoice" class="img" src="" alt="" /></div>
+            </div>
+            <p class="pic">THE HOUSE PICKED</p>
+        </div>
+    </div>
+
+    <div class="div7">
+        <div class="div8">
+            <div class="div9">
+                <p>RULES</p>
+                <img src="./images/icon-close.svg" alt="">
+            </div>
+            <div class="img2">
+                <img src="./images/image-rules.svg" alt="">
+            </div>
+            <div class="rules-img">
+                <img src="./images/icon-close.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="btn-div">
+        <button class="btn">RULES</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
