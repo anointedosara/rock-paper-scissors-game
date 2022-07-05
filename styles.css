@@ -128,10 +128,10 @@ body {
 
 .div8 {
     max-width: 330px;
+    width: 100%;
     margin: 0 auto;
     padding: 30px 25px;
     background-color: white;
-    width: 100%;
     border-radius: 10px;
 }
 
@@ -150,8 +150,10 @@ body {
 }
 
 .img2 {
-    width: 90%;
-    margin-left: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-div {
